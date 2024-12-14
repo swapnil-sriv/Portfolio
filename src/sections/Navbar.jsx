@@ -8,7 +8,7 @@ const NavItems = ()=>{
         <ul className='nav-ul '>
             {navLinks.map(({id,name,href})=>(
                 <li key={id} className='nav-li '>
-                    <a href={href} className='nav-li_a glowing-border'  onClick={()=>{}}>
+                    <a href={href} className='nav-li_a glowing-border w-fit'  onClick={()=>{}}>
                         {name}
                     </a>
                 </li>
