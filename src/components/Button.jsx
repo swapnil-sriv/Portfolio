@@ -7,6 +7,6 @@ const Button = ({name,isBeam=false,containerClass}) => {
     {name} 
     </button>
   )
-}
+} 
 
 export default Button

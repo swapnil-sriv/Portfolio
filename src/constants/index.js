@@ -25,6 +25,44 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Focus Dot App',
+      desc: 'Focus Dot is a Flutter-based Android app that utilizes real-time face detection to determine if a user is looking at the screen. A small dot in the center of the screen grows in size when the user maintains eye contact and resets when the user looks away.',
+      subdesc:
+      "This project originally used TensorFlow Lite (tflite) but has been optimized to use Google ML Kit's Face Detection API, ensuring smoother performance and stability.",
+      href: 'https://github.com/swapnil-sriv/focus-dot',
+      
+      logo: '/assets/ic_launcher.webp',
+      logoStyle: {
+        backgroundColor: '#222323',
+        border: '0.2px solid #262626',
+        boxShadow: '0px 0px 60px 0px #000000',
+        
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Android',
+          path: '/assets/android.png',
+        },
+        {
+          id: 2,
+          name: 'Flutter',
+          path: 'assets/flutter.png',
+        },
+        {
+          id: 3,
+          name: 'google_ml_kit',
+          path: '/assets/google_ml_kit.png',
+        },
+        {
+          id: 4,
+          name: 'Dart',
+          path: '/assets/dart.png',
+        },
+      ],
+    },
+    {
       title: 'Notedown App',
       desc: 'Created a dynamic web app for note-taking, utilizing React.js for responsive design',
       subdesc:
@@ -61,6 +99,7 @@ export const navLinks = [
         },
       ],
     },
+    
     {
       title: 'Face Mask Detector',
       desc: 'Developed a real-time face mask detection system using OpenCV and Keras, capable of identifying individuals wearing x`face masks within streaming video feeds.',
@@ -103,10 +142,9 @@ export const navLinks = [
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
+        backgroundColor: '#005f41',
+        //background: 'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgb(0, 59, 36)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spotlight: '/assets/spotlight3.png',
