@@ -25,6 +25,49 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Project Management App',
+      desc: 'A powerful web application to manage multiple projects and tasks seamlessly. With features like priority-based filtering, team grouping, data visualizations, and search, it helps teams stay organized and productive.',
+      subdesc:
+      "Integrated with AWS Cognito for secure user authentication and fully hosted on Amazon Web Services (AWS).",
+      href: 'https://github.com/swapnil-sriv/project-management',
+      
+      logo: '/assets/logo.png',
+      logoStyle: {
+        backgroundColor: '#222323',
+        border: '0.2px solid #262626',
+        boxShadow: '0px 0px 60px 0px #000000',
+        
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Next.js',
+          path: '/assets/nextjs.png',
+        },
+        {
+          id: 2,
+          name: 'Node.js',
+          path: 'assets/Node.png',
+        },
+        {
+          id: 3,
+          name: 'AWS EC2',
+          path: '/assets/aws-ec2.webp',
+        },
+        {
+          id: 4,
+          name: 'AWS Cognito',
+          path: '/assets/cognito.png',
+        },
+        {
+          id: 5,
+          name: 'AWS S3',
+          path: '/assets/aws-s3.png',
+        },
+      ],
+    },
+    {
       title: 'Focus Dot App',
       desc: 'Focus Dot is a Flutter-based Android app that utilizes real-time face detection to determine if a user is looking at the screen. A small dot in the center of the screen grows in size when the user maintains eye contact and resets when the user looks away.',
       subdesc:
