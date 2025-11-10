@@ -31,7 +31,7 @@ const CustomGlobe = () => {
         backgroundColor='rgba(0,0,0,0)' 
         backgroundImageOpacity={0.5}
         showAtmosphere
-        showGraticules
+        // showGraticules
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
         bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
         // backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"

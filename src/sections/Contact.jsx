@@ -10,7 +10,6 @@ const Contact = () => {
         setForm({... form, [name]:value})
     }
 
-    //service_64u25kf
     const handleSubmit = async (e)=>{ 
         e.preventDefault();
         setLoading(true);
